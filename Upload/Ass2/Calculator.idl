@@ -1,0 +1,6 @@
+module CalculatorApp{
+	interface Calculator{
+	long add(int a,int b);
+	oneway void shutdown();
+	};
+};
