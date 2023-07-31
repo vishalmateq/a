@@ -1,0 +1,3 @@
+Customer [name=vishal, paymentType=online, mall=minimall.Laptop@7a81197d]
+Customer [name=rohan, paymentType=cash, mall=minimall.Mobile@24d46ca6]
+Customer [name=mohan, paymentType=cash, mall=minimall.Cloth@4517d9a3]
