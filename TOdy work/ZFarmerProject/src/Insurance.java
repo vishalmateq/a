@@ -1,3 +1,4 @@
+ package com.farmerProject.insurancePages;
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
@@ -69,19 +70,41 @@ public class Insurance extends JFrame {
 		btnNewButton_2.setBounds(978, 47, 186, 43);
 		contentPane.add(btnNewButton_2);
 		
+		
+		
+		
 		JButton btnNewButton_3 = new JButton("Apply for a policy ");
 		btnNewButton_3.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		btnNewButton_3.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				InsuranceApplication application = new InsuranceApplication();
+			 
+				application.setVisible(true);
+			 
 			}
 		});
 		btnNewButton_3.setBounds(472, 228, 295, 59);
 		contentPane.add(btnNewButton_3);
 		
+		
+		
+		
+		
 		JButton btnNewButton_4 = new JButton("Claim Insurance ");
 		btnNewButton_4.setFont(new Font("Tahoma", Font.PLAIN, 20));
+		btnNewButton_4.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				InsuranceClaimForm claimapplication = new InsuranceClaimForm();
+			 
+				claimapplication.setVisible(true);
+			 
+			}
+		});
 		btnNewButton_4.setBounds(472, 309, 295, 59);
 		contentPane.add(btnNewButton_4);
+		
+		
+		
 		
 		JButton btnNewButton_5 = new JButton("Place Sell Request ");
 		btnNewButton_5.setFont(new Font("Tahoma", Font.PLAIN, 20));
